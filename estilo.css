@@ -1,0 +1,39 @@
+body {
+    background: none;
+}
+.boletim {
+    text-align: center;
+    background: none;
+    border-radius: 300px;
+    color: black;
+}
+
+input#txtalu {
+    margin: 350px;
+    margin-top: auto;
+    border-radius: none;
+}
+input {
+    margin: 0px;
+    margin-top: auto;
+    padding: 0px;
+}
+#res {
+    text-align: center;
+    padding: 0px 50px;
+}
+.nome1 {
+    text-align: 250px;
+    text
+}
+div#res {
+    background: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    padding: ;
+    color: none;
+    font: normal 12pt Arial;
+}
+
