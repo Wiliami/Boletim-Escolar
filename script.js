@@ -4,10 +4,10 @@ function verificar() {
     var aluno = String(txtalu.value)
 
     res.innerHTML = `<p class="nome1">Nome do Aluno: ${aluno}.</p>`
-    if (aluno == 'Wiliamis') {
+    if (aluno === 'Wiliamis') {
         res.innerHTML += 'Wiliamis é um cara legal!'
     }
-    if (aluno == 'Jackson' || 'Joao' || 'Pedro' || 'Carlos') {
+    if (aluno === 'Jackson' || 'Joao' || 'Pedro' || 'Carlos') {
         res.innerHTML += "Desculpe, ainda estamos atualizando o sistema!"
     }
     else {
