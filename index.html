@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boletim Escolar 2020</title>
-    <link rel="stylesheet" href="estilo.css">
-    <script src="script.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boletim JS</title>
+        <link rel="stylesheet" href="./css/estilo.css">
     </head>
     <body>
-        <h1 class="boletim">Boletim 2021</h1>
-        <input type="string" placeholder="selecione um aluno" name="textalu" id="txtalu" list="alunos">
-        <input type="button" value="verificar" onclick="verificar()">
-        <datalist id="alunos">
-            <option value="Wiliamis"></option>
-            <option value="Jackson"></option>
-            <option value="Joao"></option>
-            <option value="Pedro"></option>
-            <option value="Carlos"></option>
-            <option value="Paulo"></option>
-            <option value="Andre"></option>
-            <option value="Gustavo"></option>
-            <option value="Mario"></option>
+        <div>
+            <h2 class="time">Adicione um time</h2>
+            <input type="string" placeholder="Nome do time" id="add_name">
+            <input type="string" placeholder="Resultado" id="add_result">
+            <input type="button" value="Adicionar" onclick="newElementForm()">
+        </div>
+        <!-- <h1 class="titulo1">Hello World!</h1> -->
+        <div id="hunt">
+            <h1 class="title">Score</h1>
+            <h2 class="time">Qual o seu time favorito?</h2>
+            <!--<a href="/">
+                <p class="upload">Atualizar</p>
+            </a>
+            -->
+            <input type="string" name="texttim" id="txttim" list="times">
+            <input type="button" value="pesquisar" onclick="verificar()" onclick="newTeam()">
+
+        </div>
+
+        <div id="res"> </div>
+        <div id="imageoption"></div>
+
+        <!-- Lista de Times-->
+        <datalist id="times">
         </datalist>
-        <div id="res">
-        </div>    
+
+        <script src="./src/script.js"></script>
+        <script src="./src/teams.js"></script>
     </body>
 </html>
